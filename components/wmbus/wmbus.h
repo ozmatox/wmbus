@@ -18,7 +18,7 @@
 #include "mbus_packet.hpp"
 #include "utils.hpp"
 
-#include "drivers.h"
+#include <wmbus/drivers.h>
 
 #include <WiFiClient.h>
 #include <WiFiUdp.h>
