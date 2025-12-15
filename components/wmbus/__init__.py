@@ -114,13 +114,13 @@ async def to_code(config):
         cg.add(var.set_led_blink_time(config[CONF_LED_BLINK_TIME].total_milliseconds))
 
     cg.add_library(
-        None,
-        None,
-        "https://github.com/SzczepanLeon/wMbus-lib#1.4.6",
-    )
+    "wmbus-lib",
+    "1.4.6",
+    "https://github.com/SzczepanLeon/wMbus-lib",
+)
 
-    cg.add_library(
-        None,
-        None,
-        "https://github.com/SzczepanLeon/wmbus-drivers#1.1.3",
-    )
+cg.add_library(
+    "wmbus-drivers",
+    "1.1.3",
+    "https://github.com/SzczepanLeon/wmbus-drivers",
+)
