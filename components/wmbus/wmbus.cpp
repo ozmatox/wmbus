@@ -1,5 +1,6 @@
 #include "wmbus.h"
 #include "version.h"
+#include "drivers.h"
 
 namespace esphome {
 namespace wmbus {
